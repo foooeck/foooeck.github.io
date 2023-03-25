@@ -1,0 +1,359 @@
+/* AUSRICHTUNG*/
+html {
+    width: 100vw;
+}
+body{
+
+    max-width: 100vw;
+}
+.mitte {
+    display: flex;
+   
+    justify-content: center;
+}
+
+.cuttop {
+    object-fit: cover;
+    width: 20vw;
+    height: 20vw;
+   padding-top: 30vh;
+}
+
+#title {
+
+   height: 100vh;
+}
+
+#inhalt {
+position: fixed;
+    height: 120vh;
+    max-width: 100vw;
+
+  
+}
+
+#halb {
+
+    position: absolute;
+    height: 500vh;
+    margin-left: 30vw;
+    right: 0;
+
+    z-index: 111;
+    width: 70vw;
+
+}
+
+
+/* TYPO*/
+
+h1 {
+
+    font-family: swear-display, serif;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+h1:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 0.03em;
+    text-underline-offset: 0.2em;
+   
+}
+
+
+h2 {
+    font-family: swear-display, serif;
+    font-size: 5em;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+
+    position: relative;
+    max-width: 100vw;
+}
+
+
+
+.linieschwarz {
+background-color: #000;
+height: 0.03em;
+color: 000;
+
+}
+
+a {
+
+    color: black;
+    text-decoration: none;
+}
+
+
+p { font-family: swear-display, serif;
+    font-size: 5em;
+    font-weight: 400;
+    padding: 0;
+    padding-bottom: 1em;
+  
+    margin: 0;
+    
+}
+
+.klein {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    hyphens: auto;
+    max-width: 70vw;
+ 
+  
+}
+
+
+  
+  details summary {
+    cursor: pointer;
+    transition: margin 150ms ease-out;
+    list-style: none;
+  }
+  
+ 
+
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+
+
+
+  .marquee-section {
+    position: relative;
+ 
+    width: 100vw;
+  
+ }
+ 
+/**
+ 
+ .marquee-section, .marquee-section * {
+     overflow: hidden;
+ }**/
+ 
+ .marquee {
+     white-space: nowrap;
+ }
+ 
+ .marquee-div {
+     position: relative;
+     animation: move-left-to-right linear 30s infinite;
+     max-width: 100vw;
+ }
+ 
+ 
+ /* use this one to move from left to right direction */
+ @keyframes move-left-to-right {
+     from {
+         transform: translateX(0);
+     }
+     to {
+         transform: translateX(-90%);
+     }
+ }
+ 
+ /* use this one to move from right to left direction 
+ @keyframes move-right-to-left {
+     from {transform: translateX(0%);
+     }
+     to {
+         transform: translateX(-50);
+     }
+ } */
+ 
+ 
+
+ .hide {
+    display: none;
+    z-index: 2;
+    position: relative;
+    right: -70vw;
+    bottom: 20vh;
+
+}
+
+
+  .content:hover + .hide {
+    display: inline-flex;
+   }
+
+
+#genau {
+
+    width: 20vw;
+    display: inline-flex;
+    left: 75vw;
+    z-index: 88;
+
+
+    
+}
+
+
+
+/*Zweite BILDEREBENE*/
+
+
+#image1 {
+
+    position: static;
+    width: 20vw;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+#image2 {
+
+    position: static;
+    width: 17vw;
+    margin-top: 15vh;
+    margin-left: 40vw;
+}
+
+#image3 {
+
+    position: static;
+    width: 10vw;
+    margin-top: 2vh;
+    margin-left: 60vw;
+}
+#image4 {
+
+    position: static;
+    width: 14vw;
+    margin-top: 0vh;
+    margin-left: 15vw;
+}
+
+#image5 {
+
+    position: static;
+    width: 14vw;
+    margin-top: 5vh;
+    margin-left: 35vw;
+}
+
+#image6 {
+
+    position: static;
+    width: 19vw;
+    margin-top: 3vh;
+    margin-left: 50vw;
+}
+
+#image7 {
+
+    position: static;
+    width: 10vw;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+#image9 {
+
+    position: static;
+    width: 10vw;
+    margin-top: 5vh;
+    margin-left: 20vw;
+}
+
+
+#image10 {
+
+    position: static;
+    width: 20vw;
+    margin-top: 0vh;
+    margin-left: 10vw;
+}
+
+#image11 {
+
+    position: static;
+    width: 14vw;
+    margin-top: 3vh;
+    margin-left: 40vw;
+}
+
+#image12 {
+
+    position: static;
+    width: 17vw;
+    margin-top: 7vh;
+    margin-left: 08vw;
+}
+
+#image13 {
+
+    position: static;
+    width: 20vw;
+    margin-top: 2vh;
+    margin-left: 45vw;
+}
+
+#image14 {
+
+    position: static;
+    width: 15vw;
+    margin-top: 5vh;
+    margin-left: 25vw;
+}
+
+#image15 {
+
+    position: static;
+    width: 10vw;
+    margin-top: 4vh;
+    margin-left: 14vw;
+}
+
+
+#image16 {
+
+    position: static;
+    width: 17vw;
+    margin-top: 8vh;
+    margin-left: 37vw;
+}
+
+#image17 {
+
+    position: static;
+    width: 23vw;
+    margin-top: 4vh;
+    margin-left: 12vw;
+}
+
+#image18 {
+
+    position: static;
+    width: 16vw;
+    margin-top: 0vh;
+    margin-left: 02vw;
+}
+
+#image19 {
+
+    position: static;
+    width: 10vw;
+    margin-top: 5vh;
+    margin-left: 23vw;
+}
+
+#image8 {
+
+    position: static;
+    width: 20vw;
+    margin-bottom: 0vh;
+    margin-left: 50vw;
+}
