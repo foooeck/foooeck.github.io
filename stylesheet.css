@@ -28,6 +28,7 @@ body{
 position: fixed;
     height: 120vh;
     max-width: 100vw;
+    overflow: scroll;
 
   
 }
@@ -41,6 +42,9 @@ position: fixed;
 
     z-index: 111;
     width: 70vw;
+    overflow: scroll;
+
+
 
 }
 
@@ -357,3 +361,6 @@ p { font-family: swear-display, serif;
     margin-bottom: 0vh;
     margin-left: 50vw;
 }
+
+
+
