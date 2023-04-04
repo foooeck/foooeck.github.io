@@ -49,6 +49,10 @@ position: fixed;
 }
 
 
+.versteckt {
+    display: none;
+}
+
 /* TYPO*/
 
 h1 {
@@ -211,10 +215,10 @@ p { font-family: swear-display, serif;
 
 #image1 {
 
-    position: static;
+    position: absolute;
     width: 20vw;
-    margin-top: 10vh;
-    margin-left: 10vw;
+   top: 10vh;
+    left: 10vw;
 }
 
 #image2 {
@@ -350,17 +354,152 @@ p { font-family: swear-display, serif;
 
     position: static;
     width: 10vw;
-    margin-top: 5vh;
+    margin-top: 15vh;
     margin-left: 23vw;
+}
+
+#image20 {
+
+    position: static;
+    width: 20vw;
+    margin-top: 0vh;
+    margin-left: 00vw;
+}
+
+#image21 {
+
+    position: static;
+    width: 10vw;
+    margin-top: 3vh;
+    margin-left: 10vw;
+}
+#image22 {
+
+    position: static;
+    width: 19vw;
+    margin-top: 4vh;
+    margin-left: 40vw;
+}
+
+#image23 {
+
+    position: static;
+    width: 22vw;
+    margin-top: 0vh;
+    margin-left: 00vw;
+}
+
+#image24 {
+
+    position: static;
+    width: 17vw;
+    margin-top: 5vh;
+    margin-left: 45vw;
+}
+
+#image25 {
+
+    position: static;
+    width: 23vw;
+    margin-top: 4vh;
+    margin-left: 38vw;
+}
+#image26 {
+
+    position: static;
+    width: 19vw;
+    margin-top: 0vh;
+    margin-left: 5vw;
+}
+
+
+
+#image27 {
+
+    position: static;
+    width: 24vw;
+    margin-top: 8vh;
+    margin-left: 37vw;
+}
+
+#image28 {
+
+    position: static;
+    width: 20vw;
+    margin-top: 0vh;
+    margin-left: 0vw;
+}
+
+#image29 {
+
+    position: static;
+    width: 18vw;
+    margin-top: 8vh;
+    margin-left: 43vw;
+}
+
+#image29 {
+
+    position: static;
+    width: 14vw;
+    margin-top: 2vh;
+    margin-left: 32vw;
+}
+
+#image30 {
+
+    position: static;
+    width: 17vw;
+    margin-top: 12vh;
+    margin-left: 29vw;
+}
+
+#image31 {
+
+    position: static;
+    width: 27vw;
+    margin-top: 6vh;
+    margin-left: 39vw;
+}
+
+
+#image32 {
+
+    position: static;
+    width: 15vw;
+    margin-top: 0vh;
+    margin-left: 19vw;
+}
+
+#image33 {
+
+    position: static;
+    width: 18vw;
+    margin-top: 10vh;
+    margin-left: 29vw;
+}
+
+
+#image34 {
+
+    position: static;
+    width: 18vw;
+    margin-top: 0vh;
+    margin-left: 40vw;
+}
+
+#image35 {
+
+    position: static;
+    width: 16vw;
+    margin-top: 5vh;
+    margin-left: 9vw;
 }
 
 #image8 {
 
     position: static;
-    width: 20vw;
+    width: 16vw;
     margin-bottom: 0vh;
     margin-left: 50vw;
 }
-
-
-
